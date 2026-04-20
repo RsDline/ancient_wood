@@ -1,4 +1,13 @@
 {
+  "attributes": {
+    "minecraft:audio/background_music": {},
+    "minecraft:audio/music_volume": 0.0,
+    "minecraft:visual/fog_color": "#ffffff",
+    "minecraft:visual/sky_color": "#ffffff",
+    "minecraft:visual/water_fog_color": "#ffffff",
+    "minecraft:visual/fog_start_distance": 64,
+    "minecraft:visual/fog_end_distance": 192
+  },
   "carvers": [
     "minecraft:cave",
     "minecraft:cave_extra_underground",
@@ -6,14 +15,10 @@
   ],
   "downfall": 0.8,
   "effects": {
-    "dry_foliage_color": 16777215,
-    "foliage_color": 16777215,
-    "sky_color":16777215,
-    "grass_color": 16777215,
-    "fog_color":16777215,
-    "water_color": 16777215,
-    "water_fog_color":16777215
-
+    "dry_foliage_color": "#ffffff",
+    "foliage_color": "#ffffff",
+    "grass_color": "#ffffff",
+    "water_color": "#ffffff"
   },
   "features": [
     [],
@@ -70,14 +75,16 @@
       "minecraft:glow_lichen",
       "acovia:pale_garden_vegetation",
       "minecraft:flower_meadow",
+      "acovia:flower_flower_forest",
       "acovia:flower_forest_flowers",
       "minecraft:blackstone_blobs",
       "minecraft:pale_moss_patch",
+      "acovia:pale_garden_flowers",
       "minecraft:flower_pale_garden",
+      "acovia:patch_grass_forest",
       "minecraft:patch_pumpkin",
-      "minecraft:patch_grass_meadow",
-      "minecraft:wildflowers_meadow",
-      "minecraft:patch_sugar_cane"
+      "minecraft:patch_sugar_cane",
+      "acovia:patch_firefly_bush_near_water"
     ],
     [
       "minecraft:freeze_top_layer"
